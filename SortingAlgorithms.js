@@ -18,3 +18,20 @@ let bubbleSort = (inputArr) => {
 
 console.log(bubbleSort(bubbleSortArr))
 
+//** Ascending Order Function **//
+
+const unsortedArr = [1,3,6,9]
+
+let ascendingArr = (arr) => {
+    let ascArr = true 
+    for (let i = 0; i < arr.length; i ++){
+        if (arr[i] > arr[i + 1]){
+            ascArr = false;
+           
+
+        } 
+    }
+    return ascArr
+}
+
+console.log(ascendingArr(unsortedArr))
